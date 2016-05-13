@@ -991,7 +991,7 @@ var userInterface = (function() {
                 '(O) Fix Lag Giao Diện Điện Thoại: </span>' + userInterface.handleTextColor(
                     window.mobileRender);
             window.collision_detection_overlay.innerHTML =
-                generalStyle + '(C) Collision detection: </span>' +
+                generalStyle + '(C) Tự Động Né Va Chạm: </span>' +
                 userInterface.handleTextColor(window.collisionDetection);
             window.collision_radius_multiplier_overlay.innerHTML =
                 generalStyle +
