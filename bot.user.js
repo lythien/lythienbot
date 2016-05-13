@@ -1067,7 +1067,7 @@ var userInterface = (function() {
 
         handleTextColor: function(enabled) {
             return '<span style=\"opacity: 0.8; color:' + (enabled ?
-                    'green;\">kích hoạt' : 'red;\">tắt') +
+                    'green;\">Kích Hoạt' : 'red;\">Tắt') +
                 '</span>';
         }
     };
