@@ -976,16 +976,16 @@ var userInterface = (function() {
                 '(T / Chuột Phải ) Bật Tắt Hack : </span>' + userInterface.handleTextColor(
                     bot.isBotRunning);
             window.visualdebugging_overlay.innerHTML = generalStyle +
-                '(Y) Hiển thị chế độ hack: </span>' + userInterface.handleTextColor(
+                '(Y) Hiển Thị Giao Diện Hack: </span>' + userInterface.handleTextColor(
                     window.visualDebugging);
             window.logdebugging_overlay.innerHTML = generalStyle +
                 '(U) Hiển Thị Lổi: </span>' + userInterface.handleTextColor(
                     window.logDebugging);
             window.autorespawn_overlay.innerHTML = generalStyle +
-                '(I) Tự động đăng nhập: </span>' + userInterface.handleTextColor(
+                '(I) Tự Động Đăng Nhập: </span>' + userInterface.handleTextColor(
                     window.autoRespawn);
             window.rotateskin_overlay.innerHTML = generalStyle +
-                '(W) Tự động thay đổi skin: </span>' + userInterface.handleTextColor(
+                '(W) Tự Động Thay Đổi Skin: </span>' + userInterface.handleTextColor(
                     window.rotateskin);
             window.rendermode_overlay.innerHTML = generalStyle +
                 '(O) Fix Lag Giao Diện Điện Thoại: </span>' + userInterface.handleTextColor(
@@ -995,7 +995,7 @@ var userInterface = (function() {
                 userInterface.handleTextColor(window.collisionDetection);
             window.collision_radius_multiplier_overlay.innerHTML =
                 generalStyle +
-                '(A/S) Tăng giảm bán kính ăn mồi: ' + window.collisionRadiusMultiplier +
+                '(A/S) Tăng Giảm Bán Kính Ăn Mồi: ' + window.collisionRadiusMultiplier +
                 ' </span>';
         },
 
@@ -1139,15 +1139,15 @@ window.loop = function() {
     // Set static display options here.
     var generalStyle = '<span style = "opacity: 0.35";>';
     window.resetzoom_overlay.innerHTML = generalStyle +
-        '(Z) Tắt phóng to thu nhỏ </span>';
+        '(Z) Tắt Phóng To Thu Nhỏ </span>';
     window.scroll_overlay.innerHTML = generalStyle +
-        '(Lăn chuột) Phóng to thu nhỏ bản đồ </span>';
+        '(Lăn Chuột) Phóng To Thu Nhỏ Bản Đồ </span>';
     window.quittomenu_overlay.innerHTML = generalStyle +
-        '(Q) Về trang chính </span>';
+        '(Q) Về Trang Chính </span>';
     window.changeskin_overlay.innerHTML = generalStyle +
-        '(X) Thay đổi skin </span>';
+        '(X) Thay Đổi Skin </span>';
     window.quickResp_overlay.innerHTML = generalStyle +
-        '(ESC) Chơi lại </span>';
+        '(ESC) Chơi Lại </span>';
     window.version_overlay.innerHTML = generalStyle + 'Version: ' + GM_info
         .script.version;
 
