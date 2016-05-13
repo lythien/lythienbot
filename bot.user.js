@@ -1,6 +1,5 @@
 /*
 Copyright (c) 2016 Ermiya Eskandary & Théophile Cailliau and other contributors
-
 This Source Code Form is subject to the terms of the Mozilla Public
 License, v. 2.0. If a copy of the MPL was not distributed with this
 file, You can obtain one at http://mozilla.org/MPL/2.0/.
@@ -979,13 +978,13 @@ var userInterface = (function() {
         onPrefChange: function() {
             var generalStyle = '<span style = "opacity: 0.35";>';
             window.botstatus_overlay.innerHTML = generalStyle +
-                '(T / Right Click) Bot: </span>' + userInterface.handleTextColor(
+                '(T / Chuột Phải ) Bật Tắt Hack : </span>' + userInterface.handleTextColor(
                     bot.isBotRunning);
             window.visualdebugging_overlay.innerHTML = generalStyle +
-                '(Y) Visual debugging: </span>' + userInterface.handleTextColor(
+                '(Y) Hiển thị chế độ hack: </span>' + userInterface.handleTextColor(
                     window.visualDebugging);
             window.logdebugging_overlay.innerHTML = generalStyle +
-                '(U) Log debugging: </span>' + userInterface.handleTextColor(
+                '(U) Hiển Thị Lổi: </span>' + userInterface.handleTextColor(
                     window.logDebugging);
             window.autorespawn_overlay.innerHTML = generalStyle +
                 '(I) Auto respawning: </span>' + userInterface.handleTextColor(
