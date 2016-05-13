@@ -1,14 +1,14 @@
 
 // ==UserScript==
-// @name         Hack Game Rắn Ăn Mồi Slither.Io
-// @namespace    http://lythien.top/
-// @version      0.9.1
-// @description  Hướng dẫn hack game rắn ăn mồi - LyThienTop-bot
+// @name         Hack game Slither
+// @namespace    http://slither.io/
+// @version      0.9.1 -  LyThien.Top
+// @description  LyThienTop-bot
 // @author       Lý Thiện
-// @match        http://lythien.top/
+// @match        http://slither.io/
 // @updateURL    https://github.com/lythien/lythienbot/raw/master/bot.user.js
 // @downloadURL  https://github.com/lythien/lythienbot/raw/master/bot.user.js
-// @supportURL   https://github.com/lythien/lythienbot/issues
+// @supportURL   https://github.com/ErmiyaEskandary/Slither.io-bot/issues
 // @grant        none
 // ==/UserScript==
 // Custom logging function - disabled by default
