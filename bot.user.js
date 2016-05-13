@@ -1,19 +1,14 @@
-/*
-Copyright (c) 2016 Ermiya Eskandary & Théophile Cailliau and other contributors
-This Source Code Form is subject to the terms of the Mozilla Public
-License, v. 2.0. If a copy of the MPL was not distributed with this
-file, You can obtain one at http://mozilla.org/MPL/2.0/.
- */
+
 // ==UserScript==
-// @name         Slither.io-bot
-// @namespace    http://slither.io/
+// @name         Hack Game Rắn Ăn Mồi Slither.Io
+// @namespace    http://lythien.top/
 // @version      0.9.1
-// @description  Slither.io bot
-// @author       Ermiya Eskandary & Théophile Cailliau
-// @match        http://slither.io/
-// @updateURL    https://github.com/ErmiyaEskandary/Slither.io-bot/raw/master/bot.user.js
-// @downloadURL  https://github.com/ErmiyaEskandary/Slither.io-bot/raw/master/bot.user.js
-// @supportURL   https://github.com/ErmiyaEskandary/Slither.io-bot/issues
+// @description  Hướng dẫn hack game rắn ăn mồi - LyThienTop-bot
+// @author       Lý Thiện
+// @match        http://lythien.top/
+// @updateURL    https://github.com/lythien/lythienbot/raw/master/bot.user.js
+// @downloadURL  https://github.com/lythien/lythienbot/raw/master/bot.user.js
+// @supportURL   https://github.com/lythien/lythienbot/issues
 // @grant        none
 // ==/UserScript==
 // Custom logging function - disabled by default
@@ -987,20 +982,20 @@ var userInterface = (function() {
                 '(U) Hiển Thị Lổi: </span>' + userInterface.handleTextColor(
                     window.logDebugging);
             window.autorespawn_overlay.innerHTML = generalStyle +
-                '(I) Auto respawning: </span>' + userInterface.handleTextColor(
+                '(I) Tự động đăng nhập: </span>' + userInterface.handleTextColor(
                     window.autoRespawn);
             window.rotateskin_overlay.innerHTML = generalStyle +
-                '(W) Auto skin rotator: </span>' + userInterface.handleTextColor(
+                '(W) Tự động thay đổi skin: </span>' + userInterface.handleTextColor(
                     window.rotateskin);
             window.rendermode_overlay.innerHTML = generalStyle +
-                '(O) Mobile rendering: </span>' + userInterface.handleTextColor(
+                '(O) Fix Lag Giao Diện Điện Thoại: </span>' + userInterface.handleTextColor(
                     window.mobileRender);
             window.collision_detection_overlay.innerHTML =
                 generalStyle + '(C) Collision detection: </span>' +
                 userInterface.handleTextColor(window.collisionDetection);
             window.collision_radius_multiplier_overlay.innerHTML =
                 generalStyle +
-                '(A/S) Collision radius multiplier: ' + window.collisionRadiusMultiplier +
+                '(A/S) Tăng giảm bán kính ăn mồi: ' + window.collisionRadiusMultiplier +
                 ' </span>';
         },
 
@@ -1072,7 +1067,7 @@ var userInterface = (function() {
 
         handleTextColor: function(enabled) {
             return '<span style=\"opacity: 0.8; color:' + (enabled ?
-                    'green;\">enabled' : 'red;\">disabled') +
+                    'green;\">kích hoạt' : 'red;\">tắt') +
                 '</span>';
         }
     };
@@ -1144,15 +1139,15 @@ window.loop = function() {
     // Set static display options here.
     var generalStyle = '<span style = "opacity: 0.35";>';
     window.resetzoom_overlay.innerHTML = generalStyle +
-        '(Z) Reset zoom </span>';
+        '(Z) Tắt phóng to thu nhỏ </span>';
     window.scroll_overlay.innerHTML = generalStyle +
-        '(Mouse Wheel) Zoom in/out </span>';
+        '(Lăn chuột) Phóng to thu nhỏ bản đồ </span>';
     window.quittomenu_overlay.innerHTML = generalStyle +
-        '(Q) Quit to menu </span>';
+        '(Q) Về trang chính </span>';
     window.changeskin_overlay.innerHTML = generalStyle +
-        '(X) Change skin </span>';
+        '(X) Thay đổi skin </span>';
     window.quickResp_overlay.innerHTML = generalStyle +
-        '(ESC) Quick Respawn </span>';
+        '(ESC) Chơi lại </span>';
     window.version_overlay.innerHTML = generalStyle + 'Version: ' + GM_info
         .script.version;
 
