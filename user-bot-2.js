@@ -9,8 +9,8 @@
 // @updateURL    https://github.com/lythien/lythienbot/raw/master/user-bot-2.js
 // @downloadURL  https://github.com/lythien/lythienbot/raw/master/user-bot-2.js
 // @supportURL   https://github.com/lythien/lythienbot/issues
-// @run-at document-start
-// @grant        GM_xmlhttpRequest
+// @run-at       document-body
+// @grant        none
 // ==/UserScript==
 
 
