@@ -6,8 +6,8 @@
 // @author       Lý Thiện
 // @require      http://code.jquery.com/jquery-latest.js
 // @match        http://slither.io/
-// @updateURL    https://github.com/lythien/lythienbot/raw/master/bot.user.js
-// @downloadURL  https://github.com/lythien/lythienbot/raw/master/bot.user.js
+// @updateURL    https://github.com/lythien/lythienbot/raw/master/user-bot-2.js
+// @downloadURL  https://github.com/lythien/lythienbot/raw/master/user-bot-2.js
 // @supportURL   https://github.com/lythien/lythienbot/issues
 // @run-at document-start
 // @grant        GM_xmlhttpRequest
