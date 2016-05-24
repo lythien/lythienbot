@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Slither.io-bot A*
+// @name         LyThien.Top-bot A*
 // @namespace    http://slither.io/
 // @version      1.1.2 - LyThien.Top
 // @description  LyThienTop-bot A*
