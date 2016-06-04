@@ -6,13 +6,10 @@
 // @match        http://diep.io/
 // @run-at       document-start
 // @grant        GM_xmlhttpRequest
-// @connect      http://lythien.top/lythiendiep-ver2/
+// @connect      lythien.top/lythiendiep-ver2
 // @connect      diep.io
-// @namespace http://lythien.top/lythiendiep-ver2/diep.js
-
+// @namespace    http://lythien.top/lythiendiep-ver2/diep.js
 // ==/UserScript==
-
-window.stop();
 
 GM_xmlhttpRequest({
     method: "GET",
